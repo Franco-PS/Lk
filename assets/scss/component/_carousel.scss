@@ -1,0 +1,40 @@
+
+.box__carousel{
+    display: flex;
+    align-items: center;
+    height: 20rem;
+    overflow: hidden;
+}
+.container__carousel{
+    position: relative;
+    height: 15rem;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 249, 249, 0.836);
+}
+.carousel-card{
+    min-width: var(--width-carousel);
+    max-height: 100px;
+    padding: 2rem;
+    margin: 1.5rem 0 3rem;
+    position: relative;
+    transition: ease-in .5s;
+    &:hover{
+        border-radius: .5rem;
+        box-shadow: 11px 10px 28px  rgba(0, 0, 0, 0.555);
+        .img-1{
+            display: block;
+        }
+        .img-0{
+            display: none;
+        }
+    }
+}
+.img-0{
+    display: block;
+}
+.img-1{
+    display: none;
+    // transform: translateY(-100%);
+}

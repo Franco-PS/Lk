@@ -1,0 +1,25 @@
+.banner__box{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.banner-img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 18% ;
+}
+.banner__content{
+    position: absolute;
+    text-align: center;
+    color: white;
+    @include mq(medium){
+        text-align: left;
+    }
+}
+// .banner__title-breack{
+//     // word-break: normal;
+//     // flex-grow: 4;
+//     // align-items: stretch;
+//     align-self: stretch;
+// }

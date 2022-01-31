@@ -1,0 +1,14 @@
+footer{
+    background-color: var(--color-black-primary);
+    color:var(--color-white);
+    padding-top: 4.5rem;
+}
+footer h2{
+    font-size: var(--footer-font-size);
+}
+.footer__secont{
+    background-color: var(--color-black);
+    & p{
+        margin-bottom: 0;
+    }
+}

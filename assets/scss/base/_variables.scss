@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Roboto+Slab:wght@300;700&display=swap');
+$breakpoints: (
+  small: 0px,
+  medium: 640px,
+  large: 1024px,
+  xlarge: 1200px,
+  xxlarge: 1440px,
+);
+:root{
+    --font-family-noto:'Noto Sans', sans-serif;
+    --font-family-roboto:'Roboto Slab', serif;
+}
+:root{
+    --h2-font-size:2.5rem;
+    --h1-font-size:1.5rem;
+    --body-font-size:1.8rem;
+    --footer-font-size:2rem;
+    @include mq(medium){
+        --h2-font-size:4rem;
+        --h1-font-size:1.8rem;
+        --body-font-size:2rem;
+        --footer-font-size:2.5rem;
+    }
+}
+:root{
+    --mediu-weight: 300;
+    --big-weight:700;
+}
+:root{
+    --color-primary: rgb(0,6,108);
+    --color-primary-light: rgb(0, 162, 255);
+    --color-black-primary:#1D2229;
+    --color-black: #191C20;
+    --color-white: white;
+}
+:root{
+    --width-carousel: 18.6rem;
+    @include mq(medium){
+        --width-carousel: 24.7rem;
+    }
+}
