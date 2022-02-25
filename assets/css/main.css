@@ -153,3 +153,18 @@ footer h2 {
   background-color: var(--color-black); }
   .footer__secont p {
     margin-bottom: 0; }
+
+.footer__box-icon {
+  background-color: red;
+  min-width: 4rem;
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.icon-socialMedia {
+  position: absolute;
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 2rem; }
